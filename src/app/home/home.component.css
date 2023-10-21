@@ -1,0 +1,58 @@
+
+.svg {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -100px;
+  }
+  
+  #triRight {
+    animation: float 3.1s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    box-shadow: 10px 10px 10px 10px black;
+  }
+  
+  #triRightSmall {
+    animation: float 3.2s ease-in-out forwards;
+    animation-iteration-count: infinite;
+  }
+  
+  #triLeft {
+    animation: float 3.1s ease-in-out forwards;
+    animation-iteration-count: infinite;
+  }
+  
+  #triLeftSmall {
+    animation: float 3.4s ease-in-out forwards;
+    animation-iteration-count: infinite;
+  }
+    
+  #triMid {
+    animation: float 2.2s ease-in-out forwards;
+    animation-iteration-count: infinite;
+  }
+    
+  #triMain {
+    animation: float 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+  }
+    
+    
+  #computer, #screen {
+    animation: float 3s ease-in-out;
+    animation-iteration-count: infinite;
+  }
+    
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }

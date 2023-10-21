@@ -1,0 +1,76 @@
+<main>
+  <article>
+    <section class="section contact has-bg-image" aria-labelledby="contact-label"
+      style="background-image: url('./assets/images/contact-bg.png')">
+      <div class="container">
+
+        <div [formGroup]="form">
+          <form action="" (submit)="send()" class="contact-form">
+            <h2 class="headline-sm" id="contact-label">Get in touch</h2>
+            <p class="contact-text body-md">
+              I would love to hear from you if you have new opportunities!
+            </p>
+            <div class="wrapper">
+              <div>
+                <label for="name" class="label">Your name</label>
+                <input type="text" name="name" id="name" placeholder="Name *" required class="input-field"
+                  formControlName="from_name">
+              </div>
+              <div>
+                <label for="email" class="label">Your email </label>
+                <input type="email" name="email" id="email" placeholder="Email *" required class="input-field"
+                  formControlName="from_email">
+              </div>
+            </div>
+            <label for="subject" class="label">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Subject *" class="input-field"
+              formControlName="subject">
+            <label for="message" class="label">Your message </label>
+            <textarea name="message" id="message" placeholder="Your message *" required class="input-field"
+              formControlName="message"></textarea>
+            <button type="submit" class="btn btn-tertiary" [disabled]="!form.valid">Send Message</button>
+          </form>
+        </div>
+        <div>
+          <div style="margin-bottom: 15px;">
+            <img src="assets/images/mail.svg" alt="Mailbox">
+          </div>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div class="item-icon" style="background-color: hsl(177, 39%, 72%)">
+                <ion-icon name="call" aria-hidden="true"></ion-icon>
+              </div>
+              <div>
+                <p class="label-lg">Phone</p>
+                <a href="tel:+1-438-453-7830" class="body-lg">+1 (438) 453-7830</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="item-icon" style="background-color: hsl(41, 99%, 64%)">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              </div>
+              <div>
+                <p class="label-lg">Mail</p>
+                <a href="mailto:ghawialain@gmail.com" class="body-lg">ghawialain@gmail.com</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="item-icon">
+                <img src="assets/images/canada-flag.svg" alt="Canadian Flag">
+              </div>
+              <div>
+                <p class="label-lg">Located now</p>
+
+                <address class="body-lg">
+                  Montreal, Canada
+                </address>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </article>
+</main>

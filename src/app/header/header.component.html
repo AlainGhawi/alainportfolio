@@ -1,0 +1,54 @@
+<!-- 
+    - #HEADER
+  -->
+
+<header class="header" data-header>
+    <div class="container">
+
+        <a routerLink="/home" class="logo">
+            <img src="assets/images/logo.svg" width="151" height="28" alt="Alain home">
+        </a>
+
+        <nav class="navbar" data-navbar [ngClass]="status ? 'active' : ''">
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <a routerLink="/home" class="label-lg navbar-link has-after" routerLinkActive="active">Home</a>
+                </li>
+
+                <li class="navbar-item">
+                    <a routerLink="/services" class="label-lg navbar-link has-after"
+                        routerLinkActive="active">Services</a>
+                </li>
+
+                <!-- <li class="navbar-item">
+                    <a routerLink="/portfolio" class="label-lg navbar-link has-after"
+                        routerLinkActive="active">Portfolio</a>
+                </li>
+
+                <li class="navbar-item">
+                    <a routerLink="/certifications" class="label-lg navbar-link has-after"
+                        routerLinkActive="active">Certifications</a>
+                </li> -->
+
+                <li class="navbar-item">
+                    <a routerLink="/resume" class="label-lg navbar-link has-after"
+                        routerLinkActive="active">Resume</a>
+                </li>
+
+                <li class="navbar-item">
+                    <a routerLink="/contact" class="label-lg navbar-link has-after"
+                        routerLinkActive="active">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <a routerLink="/contact" class="btn btn-primary">Contact Now</a>
+
+        <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler (click)="addToggle()">
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+    </div>
+</header>
