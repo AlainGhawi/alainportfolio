@@ -10,7 +10,6 @@ import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { ResumeComponent } from './resume/resume.component';
 import { CertificationComponent } from './certification/certification.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -23,7 +22,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     PortfolioComponent,
     HeaderComponent,
     FooterComponent,
-    ResumeComponent,
     CertificationComponent
   ],
   imports: [
