@@ -11,8 +11,8 @@ export class ResumeComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     WebViewer({
-      path: '../assets/lib',
-      initialDoc: '../assets/pdf/AlainGhawiResume.pdf'
+      path: './assets/lib',
+      initialDoc: './assets/pdf/AlainGhawiResume.pdf'
     }, this.viewerRef.nativeElement).then(instance => {
 
     })
