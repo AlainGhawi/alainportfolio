@@ -10,7 +10,6 @@ import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { CertificationComponent } from './certification/certification.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -28,7 +27,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     PortfolioComponent,
     HeaderComponent,
     FooterComponent,
-    CertificationComponent
   ],
   imports: [
     BrowserModule,
