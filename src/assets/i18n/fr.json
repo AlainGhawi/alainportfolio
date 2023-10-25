@@ -14,7 +14,8 @@
         "SEND_MESSAGE":"Envoyer",
         "LOCATION":"Situé maintenant",
         "EMAIL":"Courriel",
-        "PHONE":"Téléphone"
+        "PHONE":"Téléphone",
+        "CONTACT_NOW":"Me Contacter"
 
     },
     "SERVICES": {

@@ -14,7 +14,8 @@
         "SEND_MESSAGE":"Send message",
         "LOCATION":"Located now",
         "EMAIL":"Email",
-        "PHONE":"Phone"
+        "PHONE":"Phone",
+        "CONTACT_NOW":"Contact Now"
     },
     "SERVICES": {
         "TITLE":"My Services"
