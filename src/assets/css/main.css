@@ -37,20 +37,12 @@
 @import url("./components/slider.css");
 @import url("./components/card.css");
 
-
-
-
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
 
 
-
 .header { background-color: var(--white); box-shadow: var(--shadow); }
-
-
-
 
 
 /*-----------------------------------*\

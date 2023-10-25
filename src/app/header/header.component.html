@@ -5,37 +5,23 @@
 <header class="header" data-header>
     <div class="container">
 
-        <a routerLink="/home" class="logo">
-            <img src="assets/images/logo.svg" width="151" height="28" alt="Alain home">
-        </a>
-
+        <div class="d-flex">
+            <button class="fi fi-us me-2" (click)="changeLanguage('en')"></button>
+            <button class="fi fi-fr me-2" (click)="changeLanguage('fr')"></button>
+        </div>
         <nav class="navbar" data-navbar [ngClass]="status ? 'active' : ''">
             <ul class="navbar-list">
-
                 <li class="navbar-item">
                     <a routerLink="/home" class="label-lg navbar-link has-after" routerLinkActive="active">Home</a>
                 </li>
-
                 <li class="navbar-item">
                     <a routerLink="/services" class="label-lg navbar-link has-after"
                         routerLinkActive="active">Services</a>
                 </li>
-
-                <!-- <li class="navbar-item">
-                    <a routerLink="/portfolio" class="label-lg navbar-link has-after"
-                        routerLinkActive="active">Portfolio</a>
-                </li>
-
-                <li class="navbar-item">
-                    <a routerLink="/certifications" class="label-lg navbar-link has-after"
-                        routerLinkActive="active">Certifications</a>
-                </li> -->
-
                 <li class="navbar-item">
                     <a routerLink="/contact" class="label-lg navbar-link has-after"
                         routerLinkActive="active">Contact</a>
                 </li>
-
             </ul>
         </nav>
 
