@@ -1,0 +1,32 @@
+{
+    "HERO_CONTENT": {
+        "SUBTITLE": "My name is Alain Ghawi",
+        "HEADLINE": "And i'm a sofware engineer, tech evangelist, and digital content creator",
+        "LOCATION": "Based in Montreal, Canada."
+    },
+    "CONTACT": {
+        "LABEL": "Get in touch",
+        "TEXT": "I would love to hear from you if you have new opportunities!",
+        "NAME":"Your name",
+        "YOUR_EMAIL":"Your email",
+        "SUBJECT":"Subject",
+        "MESSAGE":"Your message",
+        "SEND_MESSAGE":"Send message",
+        "LOCATION":"Located now",
+        "EMAIL":"Email",
+        "PHONE":"Phone",
+        "CONTACT_NOW":"Contact Now"
+    },
+    "SERVICES": {
+        "TITLE":"My Services"
+    },
+    "ABOUT": {
+        "TITLE":"I'm a fullstack engineer with 6+ years of experience.",
+        "SECTION_1":"🚀 As a dynamic software engineer, I've taken a global journey from my Lebanese roots to working for companies in Lebanon, Bahrain, USA, Saudi Arabia, and Canada.",
+        "SECTION_2":"💻 My passion for technology knows no bounds, and my journey is marked by creating financial apps, streamlining supply chain management, crafting intuitive POS systems, and architecting seamless e-commerce platforms. I've also ventured into the intricate world of insurance sales portals, ensuring every project complies with the highest standards.",
+        "SECTION_3":"🌟 My mission is to turn complex challenges into elegant solutions that go above and beyond expectations. I'm dedicated to delivering excellence in every project, pushing the boundaries of what's possible in software engineering.",
+        "SECTION_4":"🌎 With a global perspective and a wealth of experience, I'm eager to embark on new opportunities to continue making a meaningful impact. Let's join forces and create something extraordinary! 🔥💼💡",
+        "PROJECTS":"Projects Completed",
+        "CLIENTS":"Happy Clients"
+    }
+}

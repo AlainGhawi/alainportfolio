@@ -1,0 +1,33 @@
+{
+    "HERO_CONTENT": {
+        "SUBTITLE": "Mon nom est Alain Ghawi",
+        "HEADLINE": "Et je suis un ingénieur logiciel, un évangéliste technologique et un créateur de contenu ",
+        "LOCATION": "Basé à Montreal, Canada."
+    },
+    "CONTACT": {        
+        "LABEL": "Prends contact",
+        "TEXT": "J'aimerais avoir de vos nouvelles si vous avez des opportunités!",
+        "NAME":"Votre nom",
+        "YOUR_EMAIL":"Votre courriel",
+        "SUBJECT":"Sujet",
+        "MESSAGE":"Votre message",
+        "SEND_MESSAGE":"Envoyer",
+        "LOCATION":"Situé maintenant",
+        "EMAIL":"Courriel",
+        "PHONE":"Téléphone",
+        "CONTACT_NOW":"Me Contacter"
+
+    },
+    "SERVICES": {
+        "TITLE":"Mes Services"
+    },
+    "ABOUT": {
+        "TITLE":"Je suis un ingénieur full-stack avec plus de 6 ans d'expérience.",
+        "SECTION_1":"🚀 En tant qu'ingénieur logiciel dynamique, j'ai entrepris un voyage mondial depuis mes racines libanaises en travaillant pour des entreprises au Liban, à Bahreïn, aux États-Unis, en Arabie saoudite et au Canada.",
+        "SECTION_2":"💻 Ma passion pour la technologie est sans limite, et mon parcours est marqué par la création d'applications financières, l'optimisation de la gestion de la chaîne d'approvisionnement, la conception de systèmes de point de vente intuitifs et l'architecture de plates-formes de commerce électronique fluides. J'ai également exploré le monde complexe des portails de vente d'assurance, veillant à ce que chaque projet soit conforme aux normes les plus élevées.",
+        "SECTION_3":"🌟 Ma mission consiste à transformer des défis complexes en solutions élégantes qui dépassent les attentes. Je m'engage à fournir l'excellence dans chaque projet, repoussant les limites de ce qui est possible en ingénierie logicielle.",
+        "SECTION_4":"🌎 Avec une perspective mondiale et une grande expérience, je suis impatient de saisir de nouvelles opportunités pour continuer à avoir un impact significatif. Unissons nos forces et créons quelque chose d'extraordinaire ! 🔥💼💡",
+        "PROJECTS":"Projets Terminés",
+        "CLIENTS":"Clients Satisfaits"
+    }
+}
