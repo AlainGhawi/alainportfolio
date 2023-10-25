@@ -5,9 +5,9 @@
 <header class="header" data-header>
     <div class="container">
 
-        <div class="d-flex">
-            <button class="fi fi-us me-2" (click)="changeLanguage('en')"></button>
-            <button class="fi fi-fr me-2" (click)="changeLanguage('fr')"></button>
+        <div>
+            <button class="fi fi-us" (click)="changeLanguage('en')" style="margin: 5px;"></button>
+            <button class="fi fi-fr" (click)="changeLanguage('fr')" style="margin: 5px;"></button>
         </div>
         <nav class="navbar" data-navbar [ngClass]="status ? 'active' : ''">
             <ul class="navbar-list">

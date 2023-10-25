@@ -6,29 +6,29 @@
 
         <div [formGroup]="form">
           <form action="" (submit)="send()" class="contact-form">
-            <h2 class="headline-sm" id="contact-label">Get in touch</h2>
+            <h2 class="headline-sm" id="contact-label">{{ "CONTACT.LABEL" | translate }}</h2>
             <p class="contact-text body-md">
-              I would love to hear from you if you have new opportunities!
+              {{ "CONTACT.TEXT" | translate }}
             </p>
             <div class="wrapper">
               <div>
-                <label for="name" class="label">Your name</label>
-                <input type="text" name="name" id="name" placeholder="Name *" required class="input-field"
+                <label for="name" class="label">{{ "CONTACT.NAME" | translate }}*</label>
+                <input type="text" name="name" id="name" required class="input-field"
                   formControlName="from_name">
               </div>
               <div>
-                <label for="email" class="label">Your email </label>
-                <input type="email" name="email" id="email" placeholder="Email *" required class="input-field"
+                <label for="email" class="label">{{ "CONTACT.YOUR_EMAIL" | translate }}*</label>
+                <input type="email" name="email" id="email" required class="input-field"
                   formControlName="from_email">
               </div>
             </div>
-            <label for="subject" class="label">Subject</label>
-            <input type="text" name="subject" id="subject" placeholder="Subject *" class="input-field"
+            <label for="subject" class="label">{{ "CONTACT.SUBJECT" | translate }}*</label>
+            <input type="text" name="subject" id="subject" class="input-field"
               formControlName="subject">
-            <label for="message" class="label">Your message </label>
-            <textarea name="message" id="message" placeholder="Your message *" required class="input-field"
+            <label for="message" class="label">{{ "CONTACT.MESSAGE" | translate }}* </label>
+            <textarea name="message" id="message" required class="input-field"
               formControlName="message"></textarea>
-            <button type="submit" class="btn btn-tertiary" [disabled]="!form.valid">Send Message</button>
+            <button type="submit" class="btn btn-tertiary" [disabled]="!form.valid">{{ "CONTACT.SEND_MESSAGE" | translate }}</button>
           </form>
         </div>
         <div>
@@ -41,7 +41,7 @@
                 <ion-icon name="call" aria-hidden="true"></ion-icon>
               </div>
               <div>
-                <p class="label-lg">Phone</p>
+                <p class="label-lg">{{ "CONTACT.PHONE" | translate }}</p>
                 <a href="tel:+1-438-453-7830" class="body-lg">+1 (438) 453-7830</a>
               </div>
             </li>
@@ -50,7 +50,7 @@
                 <ion-icon name="mail" aria-hidden="true"></ion-icon>
               </div>
               <div>
-                <p class="label-lg">Mail</p>
+                <p class="label-lg">{{ "CONTACT.EMAIL" | translate }}</p>
                 <a href="mailto:ghawialain@gmail.com" class="body-lg">ghawialain@gmail.com</a>
               </div>
             </li>
@@ -59,7 +59,7 @@
                 <img src="assets/images/canada-flag.svg" alt="Canadian Flag">
               </div>
               <div>
-                <p class="label-lg">Located now</p>
+                <p class="label-lg">{{ "CONTACT.LOCATION" | translate }}</p>
 
                 <address class="body-lg">
                   Montreal, Canada
