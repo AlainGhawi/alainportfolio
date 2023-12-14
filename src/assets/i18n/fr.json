@@ -24,7 +24,13 @@
         "SERVICE_3": "Conception de Base de Données",
         "SERVICE_4": "DevOps",
         "SERVICE_5": "Conseil & Orientation",
-        "SERVICE_6": "Formation"
+        "SERVICE_6": "Formation",
+        "SERVICE_1_DESCRIPTION": "Development",
+        "SERVICE_2_DESCRIPTION": "Technical Writing",
+        "SERVICE_3_DESCRIPTION": "Database Design",
+        "SERVICE_4_DESCRIPTION": "DevOps",
+        "SERVICE_5_DESCRIPTION": "Consulting & Advising",
+        "SERVICE_6_DESCRIPTION": "Training"
     },
     "ABOUT": {
         "TITLE": "Je suis un ingénieur full-stack avec plus de 6 ans d'expérience.",
