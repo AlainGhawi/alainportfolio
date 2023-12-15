@@ -20,11 +20,17 @@
     "SERVICES": {
         "TITLE": "My Services",
         "SERVICE_1": "Development",
+        "SERVICE_1_DESCRIPTION": "Development",
         "SERVICE_2": "Technical Writing",
+        "SERVICE_2_DESCRIPTION": "Technical Writing",
         "SERVICE_3": "Database Design",
+        "SERVICE_3_DESCRIPTION": "Database Design",
         "SERVICE_4": "DevOps",
+        "SERVICE_4_DESCRIPTION": "DevOps",
         "SERVICE_5": "Consulting & Advising",
-        "SERVICE_6": "Training"
+        "SERVICE_5_DESCRIPTION": "Consulting & Advising",
+        "SERVICE_6": "Training",
+        "SERVICE_6_DESCRIPTION": "Training"
     },
     "ABOUT": {
         "TITLE": "I'm a fullstack engineer with 6+ years of experience.",
