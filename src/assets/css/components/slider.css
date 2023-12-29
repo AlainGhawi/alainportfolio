@@ -7,3 +7,7 @@
 }
 
 .slider-item { scroll-snap-align: start; }
+
+.slider-item img {
+  height: 50px; /* Set the desired height */
+}
