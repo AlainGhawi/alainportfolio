@@ -20,17 +20,17 @@
     "SERVICES": {
         "TITLE": "My Services",
         "SERVICE_1": "Development",
-        "SERVICE_1_DESCRIPTION": "Development",
+        "SERVICE_1_DESCRIPTION": "Full-stack development using .NET, C#, Angular, and Blazor for scalable, maintainable, cloud-native solutions.",
         "SERVICE_2": "Technical Writing",
-        "SERVICE_2_DESCRIPTION": "Technical Writing",
+        "SERVICE_2_DESCRIPTION": "Clear and concise documentation using Confluence, covering codebases, systems architecture, and project guidelines.",
         "SERVICE_3": "Database Design",
-        "SERVICE_3_DESCRIPTION": "Database Design",
+        "SERVICE_3_DESCRIPTION": "Design and optimization of relational databases, primarily with MSSQL, ensuring high performance and data integrity.",
         "SERVICE_4": "DevOps",
-        "SERVICE_4_DESCRIPTION": "DevOps",
+        "SERVICE_4_DESCRIPTION": "Streamlining development workflows with Azure DevOps, CI/CD pipelines, containerization, and cloud infrastructure management.",
         "SERVICE_5": "Consulting & Advising",
-        "SERVICE_5_DESCRIPTION": "Consulting & Advising",
+        "SERVICE_5_DESCRIPTION": "Providing strategic insights on software architecture, cloud migration, and best practices for robust, maintainable systems.",
         "SERVICE_6": "Training",
-        "SERVICE_6_DESCRIPTION": "Training"
+        "SERVICE_6_DESCRIPTION": "Training teams on modern development practices, including Agile methodologies, cloud technologies, and .NET"
     },
     "ABOUT": {
         "TITLE": "I'm a fullstack engineer with 7+ years of experience.",

@@ -20,17 +20,17 @@
     "SERVICES": {
         "TITLE": "Mes Services",
         "SERVICE_1": "Développement",
+        "SERVICE_1_DESCRIPTION": "Développement full-stack avec .NET, C#, Angular et Blazor pour des solutions évolutives, maintenables et cloud-native.",
         "SERVICE_2": "Rédaction Technique",
-        "SERVICE_3": "Conception de Base de Données",
+        "SERVICE_2_DESCRIPTION": "Documentation claire et concise avec Confluence, couvrant les bases de code, l'architecture des systèmes et les lignes directrices des projets.",
+        "SERVICE_3": "Conception de Bases de Données",
+        "SERVICE_3_DESCRIPTION": "Conception et optimisation de bases de données relationnelles, principalement avec MSSQL, garantissant des performances élevées et l'intégrité des données.",
         "SERVICE_4": "DevOps",
-        "SERVICE_5": "Conseil & Orientation",
+        "SERVICE_4_DESCRIPTION": "Optimisation des workflows de développement avec Azure DevOps, pipelines CI/CD, conteneurisation et gestion de l'infrastructure cloud.",
+        "SERVICE_5": "Consulting & Conseil",
+        "SERVICE_5_DESCRIPTION": "Fournir des conseils stratégiques sur l'architecture logicielle, la migration vers le cloud, et les meilleures pratiques pour des systèmes robustes et maintenables.",
         "SERVICE_6": "Formation",
-        "SERVICE_1_DESCRIPTION": "Development",
-        "SERVICE_2_DESCRIPTION": "Technical Writing",
-        "SERVICE_3_DESCRIPTION": "Database Design",
-        "SERVICE_4_DESCRIPTION": "DevOps",
-        "SERVICE_5_DESCRIPTION": "Consulting & Advising",
-        "SERVICE_6_DESCRIPTION": "Training"
+        "SERVICE_6_DESCRIPTION": "Formation des équipes aux pratiques modernes de développement, incluant les méthodologies Agile, les technologies cloud et .NET."
     },
     "ABOUT": {
         "TITLE": "Je suis un ingénieur full-stack avec plus de 7 ans d'expérience.",
@@ -41,7 +41,7 @@
         "PROJECTS": "Projets Terminés",
         "CLIENTS": "Clients Satisfaits",
         "SKILLS": "Mes Compétences",
-        "INTEREST":"Intéressé(e) à travailler avec moi ?",
-        "TESTIMONIALS":"Témoignages"
+        "INTEREST": "Intéressé(e) à travailler avec moi ?",
+        "TESTIMONIALS": "Témoignages"
     }
 }
