@@ -20,20 +20,20 @@
     "SERVICES": {
         "TITLE": "Mes Services",
         "SERVICE_1": "Développement",
+        "SERVICE_1_DESCRIPTION": "Développement full-stack avec .NET, C#, Angular et Blazor pour des solutions évolutives, maintenables et cloud-native.",
         "SERVICE_2": "Rédaction Technique",
-        "SERVICE_3": "Conception de Base de Données",
+        "SERVICE_2_DESCRIPTION": "Documentation claire et concise avec Confluence, couvrant les bases de code, l'architecture des systèmes et les lignes directrices des projets.",
+        "SERVICE_3": "Conception de Bases de Données",
+        "SERVICE_3_DESCRIPTION": "Conception et optimisation de bases de données relationnelles, principalement avec MSSQL, garantissant des performances élevées et l'intégrité des données.",
         "SERVICE_4": "DevOps",
-        "SERVICE_5": "Conseil & Orientation",
+        "SERVICE_4_DESCRIPTION": "Optimisation des workflows de développement avec Azure DevOps, pipelines CI/CD, conteneurisation et gestion de l'infrastructure cloud.",
+        "SERVICE_5": "Consulting & Conseil",
+        "SERVICE_5_DESCRIPTION": "Fournir des conseils stratégiques sur l'architecture logicielle, la migration vers le cloud, et les meilleures pratiques pour des systèmes robustes et maintenables.",
         "SERVICE_6": "Formation",
-        "SERVICE_1_DESCRIPTION": "Development",
-        "SERVICE_2_DESCRIPTION": "Technical Writing",
-        "SERVICE_3_DESCRIPTION": "Database Design",
-        "SERVICE_4_DESCRIPTION": "DevOps",
-        "SERVICE_5_DESCRIPTION": "Consulting & Advising",
-        "SERVICE_6_DESCRIPTION": "Training"
+        "SERVICE_6_DESCRIPTION": "Formation des équipes aux pratiques modernes de développement, incluant les méthodologies Agile, les technologies cloud et .NET."
     },
     "ABOUT": {
-        "TITLE": "Je suis un ingénieur full-stack avec plus de 6 ans d'expérience.",
+        "TITLE": "Je suis un ingénieur full-stack avec plus de 7 ans d'expérience.",
         "SECTION_1": "🚀 En tant qu'ingénieur logiciel dynamique, j'ai entrepris un voyage mondial depuis mes racines libanaises en travaillant pour des entreprises au Liban, à Bahreïn, aux États-Unis, en Arabie saoudite et au Canada.",
         "SECTION_2": "💻 Ma passion pour la technologie est sans limite, et mon parcours est marqué par la création d'applications financières, l'optimisation de la gestion de la chaîne d'approvisionnement, la conception de systèmes de point de vente intuitifs et l'architecture de plates-formes de commerce électronique fluides. J'ai également exploré le monde complexe des portails de vente d'assurance, veillant à ce que chaque projet soit conforme aux normes les plus élevées.",
         "SECTION_3": "🌟 Ma mission consiste à transformer des défis complexes en solutions élégantes qui dépassent les attentes. Je m'engage à fournir l'excellence dans chaque projet, repoussant les limites de ce qui est possible en ingénierie logicielle.",
@@ -41,7 +41,7 @@
         "PROJECTS": "Projets Terminés",
         "CLIENTS": "Clients Satisfaits",
         "SKILLS": "Mes Compétences",
-        "INTEREST":"Intéressé(e) à travailler avec moi ?",
-        "TESTIMONIALS":"Témoignages"
+        "INTEREST": "Intéressé(e) à travailler avec moi ?",
+        "TESTIMONIALS": "Témoignages"
     }
 }
