@@ -24,7 +24,7 @@ export class ContactComponent {
       from_email: this.form.value.from_email,
       subject: this.form.value.subject,
       message: this.form.value.message,
-      }, '3o0zBmMMWvWuTWl0c');
+      }, 'your_api_key');
 
     alert('Your message has been sent! I will try to get back to you asap.');
     this.form.reset();
